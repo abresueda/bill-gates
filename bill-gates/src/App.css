@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: green;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.billgatesImg {
+  border-radius: 200px;
+  width: 120px;
+}
